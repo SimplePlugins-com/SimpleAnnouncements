@@ -1,0 +1,83 @@
+#
+# Plugin made by SimplePlugins
+#
+# Further Resources:
+# https://www.spigotmc.org/members/simple-plugins.1956834/#resources
+#
+
+#
+# SUPPORT
+# -> https://discord.gg/YeA24cba4g
+#
+
+placeholders:
+  PlaceholderAPI: true
+  SimplePlaceHolders: true
+
+#
+# DELAY: The delay is the delay after the previous broadcast and is specified in seconds
+# Messages and titles can be changed in messages.json
+#
+auto-broadcasts:
+  1:
+    delay: 15
+    permission: SimpleAnnouncements.broadcast.1
+
+    message:
+      message: broadcast.1.message
+      hover: broadcast.1.hover
+
+      onClick:
+        open-link: 'https://www.spigotmc.org/members/simple-plugins.1956834/#resources'
+
+    sound:
+      name: ENTITY_EXPERIENCE_ORB_PICKUP
+      pitch: 1
+      volume: 1
+
+  2:
+    delay: 15
+
+    message:
+      message: broadcast.2.message
+
+    title:
+      title: broadcast.2.title
+      subtitle: broadcast.2.subtitle
+
+      fadeIn: 1
+      stay: 20
+      fadeOut: 1
+
+#  example:
+#    delay: 15
+#    permission: SimpleAnnouncements.broadcast.example
+#
+#    message:
+#      message: broadcast.example.message
+#      hover: broadcast.example.hover
+#
+#      onClick:
+#        open-link: 'https://www.spigotmc.org/members/simple-plugins.1956834/#resources'
+#        suggest-command: "A Super Plugin"
+#        execute-command: "A Good Plugin"
+#
+#    title:
+#      title: broadcast.2.title
+#      subtitle: broadcast.2.subtitle
+#
+#      fadeIn: 1
+#      stay: 20
+#      fadeOut: 1
+#
+#    sound:
+#      name: ENTITY_EXPERIENCE_ORB_PICKUP
+#      pitch: 1
+#      volume: 1
+#
+#    commands:
+#      broadcast:
+#        - "give @a dirt"
+#
+#      player:
+#        - "give %player_name% dirt"

@@ -1,0 +1,22 @@
+{
+  "broadcast.1.message": [
+    "§7§m--------§8[§eYOURSERVER.NET§8]§7§m--------",
+    "",
+    "§aVisit our store now!",
+    "§bhttps://simple-plugins.com",
+    "",
+    "§7§m--------§8[§eYOURSERVER.NET§8]§7§m--------"
+  ],
+  "broadcast.1.hover": [
+    "§bA link to our store"
+  ],
+  "broadcast.2.title": "§c§lWARNING",
+  "broadcast.2.subtitle": "§cCheck out the chat for more information!",
+  "broadcast.2.message": [
+    "§7§m--------§8[§c§lWARNING§8]§7§m--------",
+    "",
+    " §4Our website is currently offline due to various problems!",
+    "",
+    "§7§m--------§8[§c§lWARNING§8]§7§m--------"
+  ]
+}
